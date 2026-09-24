@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <path d="M100 15 L175 35 C175 125, 100 180, 100 185 C100 180, 25 125, 25 35 Z" fill="#7A263A" stroke="#1BB1E7" stroke-width="7"/>
+    <!-- Crossed Hammers -->
+    <g stroke="#1BB1E7" stroke-width="8" stroke-linecap="round">
+      <line x1="60" y1="135" x2="140" y2="70"/>
+      <line x1="140" y1="135" x2="60" y2="70"/>
+    </g>
+    <!-- Hammer heads -->
+    <rect x="52" y="60" width="22" height="14" rx="2" fill="#F3A700" transform="rotate(-38 63 67)"/>
+    <rect x="126" y="60" width="22" height="14" rx="2" fill="#F3A700" transform="rotate(38 137 67)"/>
+    <text x="100" y="160" font-family="Arial, sans-serif" font-weight="900" font-size="12" fill="#1BB1E7" text-anchor="middle">WEST HAM</text>
+  </svg>

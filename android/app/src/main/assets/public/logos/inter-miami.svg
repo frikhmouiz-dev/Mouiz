@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <circle cx="100" cy="100" r="85" fill="#0A0A0A" stroke="#F5B6CD" stroke-width="8"/>
+    <!-- Two Herons -->
+    <path d="M75 125 C75 90, 95 80, 95 65 C85 70, 75 80, 75 125 Z" fill="#F5B6CD"/>
+    <path d="M125 125 C125 90, 105 80, 105 65 C115 70, 125 80, 125 125 Z" fill="#F5B6CD"/>
+    <polygon points="100,85 105,95 115,95 107,102 110,112 100,105 90,112 93,102 85,95 95,95" fill="#F5B6CD"/>
+    <!-- Eclipse Sun -->
+    <circle cx="100" cy="65" r="10" fill="#F5B6CD"/>
+    <text x="100" y="155" font-family="Arial, sans-serif" font-weight="900" font-size="12" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">INTER MIAMI</text>
+  </svg>
