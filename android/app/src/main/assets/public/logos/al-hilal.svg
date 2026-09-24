@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="hilalBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#0057B7"/>
+        <stop offset="100%" stop-color="#002B7F"/>
+      </linearGradient>
+    </defs>
+    <path d="M100 15 L175 35 C175 125, 100 180, 100 185 C100 180, 25 125, 25 35 Z" fill="url(#hilalBlue)" stroke="#FFFFFF" stroke-width="5"/>
+    <!-- 2 White stripes forming crescent H -->
+    <path d="M75 50 Q130 50 130 100 Q130 150 75 150 Q110 130 110 100 Q110 70 75 50 Z" fill="#FFFFFF"/>
+    <circle cx="85" cy="100" r="14" fill="#FFFFFF"/>
+    <text x="100" y="172" font-family="Arial, sans-serif" font-weight="900" font-size="14" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">AL HILAL</text>
+  </svg>

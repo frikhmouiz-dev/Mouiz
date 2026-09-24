@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded rect -->
+  <rect width="512" height="512" rx="110" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle inner border -->
+  <rect x="8" y="8" width="496" height="496" rx="102" fill="none" stroke="#34d399" stroke-width="4" stroke-opacity="0.3"/>
+
+  <!-- Shield / Crest Shape in center -->
+  <g filter="url(#shadow)">
+    <!-- Transfer circular arrows -->
+    <path d="M 256 90 A 166 166 0 0 1 422 256 A 166 166 0 0 1 370 373" fill="none" stroke="url(#glowGrad)" stroke-width="24" stroke-linecap="round"/>
+    <polygon points="390,385 365,373 382,342" fill="#34d399"/>
+
+    <path d="M 256 422 A 166 166 0 0 1 90 256 A 166 166 0 0 1 142 139" fill="none" stroke="url(#goldGrad)" stroke-width="24" stroke-linecap="round"/>
+    <polygon points="122,127 147,139 130,170" fill="#fbbf24"/>
+
+    <!-- Central Soccer Ball -->
+    <circle cx="256" cy="256" r="105" fill="#f8fafc" stroke="#0f172a" stroke-width="6"/>
+    
+    <!-- Central Pentagon (Soccer pattern) -->
+    <polygon points="256,206 298,236 282,286 230,286 214,236" fill="#0f172a"/>
+
+    <!-- Lines radiating to outer points -->
+    <!-- Top -->
+    <line x1="256" y1="206" x2="256" y2="152" stroke="#0f172a" stroke-width="6"/>
+    <!-- Top Right -->
+    <line x1="298" y1="236" x2="348" y2="216" stroke="#0f172a" stroke-width="6"/>
+    <!-- Bottom Right -->
+    <line x1="282" y1="286" x2="318" y2="336" stroke="#0f172a" stroke-width="6"/>
+    <!-- Bottom Left -->
+    <line x1="230" y1="286" x2="194" y2="336" stroke="#0f172a" stroke-width="6"/>
+    <!-- Top Left -->
+    <line x1="214" y1="236" x2="164" y2="216" stroke="#0f172a" stroke-width="6"/>
+
+    <!-- Outer patches -->
+    <polygon points="256,152 230,158 240,180 272,180 282,158" fill="#1e293b"/>
+    <polygon points="348,216 358,240 338,258 322,246 332,224" fill="#1e293b"/>
+    <polygon points="318,336 304,354 280,344 284,324 306,320" fill="#1e293b"/>
+    <polygon points="194,336 208,354 232,344 228,324 206,320" fill="#1e293b"/>
+    <polygon points="164,216 154,240 174,258 190,246 180,224" fill="#1e293b"/>
+
+    <!-- Ball Highlight -->
+    <path d="M 175 190 A 85 85 0 0 1 256 165" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>

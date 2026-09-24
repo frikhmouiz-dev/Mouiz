@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <path d="M100 15 L175 35 C175 125, 100 180, 100 185 C100 180, 25 125, 25 35 Z" fill="#003566" stroke="#FFC300" stroke-width="6"/>
+    <path d="M30 85 L170 85 L165 120 L35 120 Z" fill="#FFC300"/>
+    <text x="100" y="110" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="#003566" text-anchor="middle">CABJ</text>
+  </svg>

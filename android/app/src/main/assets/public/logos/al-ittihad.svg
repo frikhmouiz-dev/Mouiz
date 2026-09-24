@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="ittGold" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFD700"/>
+        <stop offset="100%" stop-color="#FFA500"/>
+      </linearGradient>
+    </defs>
+    <rect x="25" y="25" width="150" height="150" rx="20" fill="#0A0A0A" stroke="#FFD700" stroke-width="6"/>
+    <!-- Tiger stripes / 1 shape -->
+    <path d="M50 40 L65 40 L65 160 L50 160 Z" fill="#FFD700"/>
+    <path d="M80 40 L95 40 L95 160 L80 160 Z" fill="#FFD700"/>
+    <circle cx="130" cy="85" r="28" fill="#FFD700"/>
+    <circle cx="130" cy="85" r="20" fill="#0A0A0A"/>
+    <text x="130" y="145" font-family="Arial, sans-serif" font-weight="900" font-size="20" fill="#FFD700" text-anchor="middle">1</text>
+    <text x="100" y="188" font-family="Arial, sans-serif" font-weight="900" font-size="13" fill="#FFD700" text-anchor="middle">AL ITTIHAD</text>
+  </svg>

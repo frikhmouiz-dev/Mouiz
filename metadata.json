@@ -1,0 +1,6 @@
+{
+  "name": "خمّن انتقالات اللاعبين",
+  "description": "لعبة جماعية تفاعلية تنافسية لتخمين لاعبي كرة القدم من خلال مسيرة انتقالاتهم بين الأندية وسنوات الانتقال.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+    <defs>
+      <linearGradient id="anYellow" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#FFDD00"/>
+        <stop offset="100%" stop-color="#D4AF37"/>
+      </linearGradient>
+      <linearGradient id="anBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#002D62"/>
+        <stop offset="100%" stop-color="#0B132B"/>
+      </linearGradient>
+    </defs>
+    <!-- Shield -->
+    <path d="M100 15 L175 35 C175 120, 100 175, 100 185 C100 175, 25 120, 25 35 Z" fill="url(#anYellow)" stroke="#002D62" stroke-width="6"/>
+    <path d="M100 25 L165 43 C165 115, 100 165, 100 172 C100 165, 35 115, 35 43 Z" fill="url(#anBlue)"/>
+    <!-- Crown -->
+    <path d="M70 75 L80 90 L100 65 L120 90 L130 75 L125 105 L75 105 Z" fill="url(#anYellow)" stroke="#D4AF37" stroke-width="2"/>
+    <!-- Map Shape & Emblem -->
+    <circle cx="100" cy="125" r="24" fill="none" stroke="#FFDD00" stroke-width="4"/>
+    <path d="M92 120 Q100 110 108 120 T100 135 Z" fill="#FFDD00"/>
+    <text x="100" y="58" font-family="Arial, sans-serif" font-weight="900" font-size="16" fill="#FFDD00" text-anchor="middle" letter-spacing="1">AL NASSR</text>
+  </svg>
